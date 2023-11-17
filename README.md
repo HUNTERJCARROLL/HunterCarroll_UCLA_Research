@@ -4,6 +4,24 @@ PI : Chongyuan Luo
 
 Direct Mentor : Matthew Heffel
 
+---
+
+Abstract: 
+
+Gaussian Mixture Variational Autoencoder for Imputation and Batch Correction of DNA Methylation Data
+
+HUNTER CARROLL1,2, Matthew Heffel3,4, Cuining Liu3, Chongyuan Luo3
+
+1 BIG Summer Program, Institute for Quantitative and Computational Biosciences, UCLA
+
+2 University of Colorado, Denver
+
+3 Department of Human Genetics David Geffen School of Medicine, UCLA
+
+4 Bioinformatics Interdepartmental Program, UCLA
+
+Cytosine methylation (mC) is a crucial epigenetic modification regulating gene expression and cellular development. However, mC suffers from high dimensionality when studying multiple CpG sites astride the genome. When analyzing collective age groups of the prefrontal cortex our data suffers from interpolated sources of variation between the high-variance and low-variance features. To model cellular development between sources of variation, like age, we have investigated the use of neural networks as a remedy for information loss. Additionally, using a Gaussian Mixture (GM) model in the latent space of a variational autoencoder may serve to improve clustering, batch effect correction, and imputation by providing non-discrete variational autoencoder latent space parameters. We examine the use of GM Models in the latent space on the adult prefrontal cortex to showcase validity and set the stage for expanding our method to sizable datasets composed of multiple tissues and ages.
+
 
 ---
 
